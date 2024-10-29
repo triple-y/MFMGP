@@ -20,4 +20,4 @@ https://3kricegenome.s3.amazonaws.com/snpseek-dl/3k-pruned-v2.1/pruned_v2.1.bim
 https://3kricegenome.s3.amazonaws.com/snpseek-dl/3k-pruned-v2.1/pruned_v2.1.fam
 https://3kricegenome.s3.amazonaws.com/snpseek-dl/3k-pruned-v2.1/readme_pruned-v2.1.txt
 
-表型数据：/data/Phenotype-3000种质.xlsx
+表型数据：data/Phenotype-3000种质.xlsx
