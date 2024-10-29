@@ -1,5 +1,0 @@
-All time:  1367.329841852188
-The average PCC of 10-fold CV:  0.04376438418012825
-The average RMSE of 10-fold CV:  23.428374082060426
-The average MSE of 10-fold CV:  549.3175492153712
-The average MAE of 10-fold CV:  18.913275098179078
