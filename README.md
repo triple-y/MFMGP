@@ -60,30 +60,30 @@
 
 
 
-> #### 需要安装这些python3包  
-> sys  
-> time  
-> numpy  
-> pandas  
-> sklearn  
-> scipy  
-> skopt  
-> lightgbm  
-> xgboost  
+> #### Required dependency package  
+> pip install sys  
+> pip install time  
+> pip install numpy  
+> pip install pandas  
+> pip install sklearn  
+> pip install scipy  
+> pip install skopt  
+> pip install lightgbm  
+> pip install xgboost  
 
-- 运行命令：  
+- Run command  
 ```python
-python3 MFMGP.py Heading_date.geno.csv Heading_date.phe.csv >output.txt
+python3 script/MFMGP.py Heading_date.geno.csv Heading_date.phe.csv >output.txt
 ```
 
-- MFMGP网站：  
+- MFMGP website  
 https://www.biohuaxing.com/#/MFMGP
 
-- 水稻SNP数据：  
+- Variant data of rice  
 https://3kricegenome.s3.amazonaws.com/snpseek-dl/3k-pruned-v2.1/pruned_v2.1.bed
 https://3kricegenome.s3.amazonaws.com/snpseek-dl/3k-pruned-v2.1/pruned_v2.1.bim
 https://3kricegenome.s3.amazonaws.com/snpseek-dl/3k-pruned-v2.1/pruned_v2.1.fam
 https://3kricegenome.s3.amazonaws.com/snpseek-dl/3k-pruned-v2.1/readme_pruned-v2.1.txt
 
- - 表型数据：  
+ - Phenotypic data   
  data/Phenotype-3000种质.xlsx
