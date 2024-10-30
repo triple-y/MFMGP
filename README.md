@@ -1,3 +1,4 @@
+```
        / $$$$$$       / $$$$$$
       / $$$_ $$$     / $$$_ $$$
      / $$$  \ $$$   / $$$  \ $$$
@@ -50,7 +51,7 @@
              | $$$$$$  
              | $$$$$$  
              |_____/  
-
+```
 
 ## MFMGP: An integrated machine learning fusion model for genomic prediction
 
