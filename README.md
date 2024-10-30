@@ -28,30 +28,32 @@
  / $$$                         \ $$$
 |___/                           \__/ 
 
-       _/ $$$$$$$$$$$$$$$
-     _/ $$$$$$$$$$$$$$$$$
-   _/ $$$$$
- _/ $$$$$
-| $$$$$             | $$$$$$$$$$$$$$$$
-| $$$$$             | $$$$$$$$$$$$$$$$
-| $$$$$              \___  $$$$$    
-| $$$$$                 _| $$$$$    
- \_ $$$$$              / $$$$$    
-   \_ $$$$$$$$$$$$$$$$$$$$$        
-     \_ $$$$$$$$$$$$$$$$$
-       \_______________/
+        _/ $$$$$$$$$$$$$$$
+      _/ $$$$$$$$$$$$$$$$$
+    _/ $$$$$
+  _/ $$$$$
+ | $$$$$              | $$$$$$$$$$$$$
+ | $$$$$              | $$$$$$$$$$$$$
+ | $$$$$               \__  $$$$$    
+ | $$$$$                 _| $$$$$    
+  \_ $$$$$              / $$$$$    
+    \_ $$$$$$$$$$$$$$$$$$$$$        
+      \_ $$$$$$$$$$$$$$$$$
+        \_______________/
 
-        /$$$$$$$$$$$$$ 
-       | $$$$$    $$$$$$
-       | $$$$$      $$$$$$ 
-       | $$$$$      $$$$$$ 
-       | $$$$$    $$$$$$
-       | $$$$$$$$$$$$$
-       | $$$$$ 
-       | $$$$$ 
-       | $$$$$ 
-       | $$$$$  
-       |_____/  
+        /$$$$$$$$$$$$$$$$
+       | $$$$$$$$$$$$$$$$$$ 
+       | $$$$$$$$\_/ $$$$$$$$
+       | $$$$$$$$  \_ $$$$$$$$
+       | $$$$$$$$  |__ $$$$$$$$ 
+       | $$$$$$$$ _/_ $$$$$$$$ 
+       | $$$$$$$$ / $$$$$$$$
+       | $$$$$$$$$$$$$$$$$$
+       | $$$$$$$$$$$$$$$ 
+       | $$$$$$$$ 
+       | $$$$$$$$ 
+       | $$$$$$$$  
+       |_______/  
 ```
 
 ## MFMGP: An integrated machine learning fusion model for genomic prediction
@@ -71,19 +73,19 @@
 > pip install lightgbm  
 > pip install xgboost  
 
-- Run command  
+- #### Run command  
 ```python
 python3 script/MFMGP.py Heading_date.geno.csv Heading_date.phe.csv >output.txt
 ```
 
-- MFMGP website  
+- #### MFMGP website  
 https://www.biohuaxing.com/#/MFMGP
 
-- Variant data of rice  
+- #### Variant data of rice  
 https://3kricegenome.s3.amazonaws.com/snpseek-dl/3k-pruned-v2.1/pruned_v2.1.bed
 https://3kricegenome.s3.amazonaws.com/snpseek-dl/3k-pruned-v2.1/pruned_v2.1.bim
 https://3kricegenome.s3.amazonaws.com/snpseek-dl/3k-pruned-v2.1/pruned_v2.1.fam
 https://3kricegenome.s3.amazonaws.com/snpseek-dl/3k-pruned-v2.1/readme_pruned-v2.1.txt
 
- - Phenotypic data   
- data/Phenotype-3000种质.xlsx
+- #### Phenotypic data   
+data/Rice phenotype 3k accessions.xlsx
